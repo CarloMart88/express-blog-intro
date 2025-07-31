@@ -16,32 +16,32 @@ app.get('/bacheca', (req , res) => {
 // Creiamo un array dove inserire una lista di almeno 5 post, per ognuno indicare titolo, contenuto, immagine e tags (tags è un array di stringhe)
 const posts = [
   {
-    titolo: "Arsenal",
-    contenuto: "Emirates Stadium",
+    titolo: "arsenal",
+    contenuto: "emirates stadium",
     immagine: "arsenal.png",
     tags: ["rosso", "bianco"]
   },
   {
-    titolo: "Chelsea",
-    contenuto: "Stamford Bridge",
-    immagine: "Chelsea-logo.png",
+    titolo: "chelsea",
+    contenuto: "stamford bridge",
+    immagine: "chelsea-logo.png",
     tags: ["blu", "bianco"]
   },
   {
-    titolo: "Liverpool",
-    contenuto: "Anfield",
+    titolo: "liverpool",
+    contenuto: "anfield",
     immagine: "liverpool.webp",
     tags: ["rosso", "bianco"]
   },
   {
-    titolo: "Newcastle",
-    contenuto: "St. James' Park",
+    titolo: "newcastle",
+    contenuto: "st. james' park",
     immagine: "newcastle.png",
     tags: ["bianco", "nero"]
   },
   {
-    titolo: "Tottenham",
-    contenuto: "Tottenham Hotspur Stadium",
+    titolo: "tottenham",
+    contenuto: "tottenham hotspur stadium",
     immagine: "tottenham.png",
     tags: ["bianco", "blu"]
   }
